@@ -40,8 +40,6 @@ Execute `ng build` para construir o projeto. Os artefatos de construção serão
 
 ## Autor
 
-<img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/112492208?s=400&u=d9c75b76dd2b8ebed82d5b37ac031c6da8600948&v=4" width="100px;" alt=""/>
-
 Feito por Gabriel Blasco👋🏽 Entre em contato!
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-blasco/)
