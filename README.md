@@ -40,7 +40,6 @@ Execute `ng build` para construir o projeto. Os artefatos de construção serão
 
 ## Autor
 
-Feito por Gabriel Blasco👋🏽 Entre em contato!
+Feito por Gabriel Blasco👋🏽
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-blasco/)
-[![Microsoft Outlook](https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=whitem)](mailto:joaorafael.leite@hotmail.com)
