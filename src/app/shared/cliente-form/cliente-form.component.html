@@ -1,0 +1,46 @@
+<mat-card>
+  <div>
+    <mat-card-title style="color: white;">{{btnTitulo}}</mat-card-title>
+    <mat-card-subtitle></mat-card-subtitle>
+  </div>
+  <form [formGroup]="clienteForm" (ngSubmit)="submit()" #formCadastro="ngForm">
+    <input type="hidden" formControlName="id">
+    <div class="input-box">
+      <mat-form-field>
+        <mat-label for="nome">Nome</mat-label>
+        <input matInput formControlName="nome" type="text" placeholder="Digite o nome completo" required>
+        <mat-error>Campo obrigatório</mat-error>
+      </mat-form-field>
+    </div>
+    <div class="input-box">
+      <mat-form-field>
+        <mat-label for="dataNascimento">Data de Nascimento</mat-label>
+        <input matInput type="text"
+                        formControlName="dataNascimento"
+                        mask="00/00/0000"
+                        [validation]="true"
+                        [dropSpecialCharacters]="false"
+                        placeholder="Digite a data de nascimento">
+        <mat-error>Verifique o formato da data digitada - dd/MM/yyyy</mat-error>
+      </mat-form-field>
+    </div>
+    <div class="input-box">
+      <mat-form-field>
+        <mat-label for="Valor Renda">ValorRenda</mat-label>
+        <input matInput type="text" formControlName="ValorRenda"  placeholder="Digite a Renda" required>
+        <mat-error>Campo obrigatório</mat-error>
+      </mat-form-field>
+    </div>
+    <div class="input-box">
+      <mat-form-field>
+        <mat-label for="CPF">CPF</mat-label>
+        <input matInput type="text" formControlName="CPF" placeholder="Digite o CPF">
+       
+      </mat-form-field>
+    </div>
+    <div class="btn-box">
+      <button mat-raised-button color="accent" type="submit" [disabled]="!clienteForm.valid">{{btnAcao}}</button>
+      <button mat-raised-button type="button" routerLink="">Voltar</button>
+    </div>
+  </form>
+</mat-card>
