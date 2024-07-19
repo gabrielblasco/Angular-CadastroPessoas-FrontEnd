@@ -11,6 +11,8 @@ Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli
 - Edição de clientes
 - Exclusão de clientes
 
+### Observações
+- Pensando no Futuro foi desenvolvido o campo de CPF como string por conta das novas atualizações que iram vir de ser inserido letras ao CPF
 
 Este projeto foi desenvolvido para utilizar como backend o repositório [Dotnet-CadastroPessoas-BackAnd](https://github.com/gabrielblasco/Dotnet-CadastroPessoas-BackAnd) e utiliza a rota local (http://localhost:5119/api/Cliente) 
 para acessa-lo.
@@ -29,14 +31,6 @@ Execute `npm install` para instalar as dependências do projeto.
 ## Servidor de Desenvolvimento
 
 Execute `ng serve` para um servidor de desenvolvimento. Navegue para `http://localhost:4200/`. A aplicação recarregará automaticmanete caso execute alguma alteração em qualquer um dos arquivos de origem.
-
-## Gerando Código
-
-Execute `ng generate component component-name` para gerar um novo componente. Você tembém pode usar `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Execute `ng build` para construir o projeto. Os artefatos de construção serão armazenados no diretório `dist/`.
 
 ## Autor
 
