@@ -1,9 +1,9 @@
 
-# Bem-vindo ao meu repositório REST-API-EmpresaFinanceira-FrontEnd
+# Bem-vindo ao meu repositório Angular-CadastroPessoas-FrontEnd
 
 ## Descrição
 
-Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 15.2.4
+Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli)
 
 ### Funcionalidades
 
@@ -11,43 +11,16 @@ Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli
 - Edição de clientes
 - Exclusão de clientes
 
-### Funcionalidades Futuras
 
-- Cadastro de emprestimos
-- Exclusão de emprestimos
-
-Este projeto foi desenvolvido para utilizar como backend o repositório [REST-API-EmpresaFinanceira-BackEnd](https://github.com/joaorafaelleite/REST-API-EmpresaFinanceira-BackEnd) e utiliza a rota local http://localhost:8080 para acessa-lo.
+Este projeto foi desenvolvido para utilizar como backend o repositório [Dotnet-CadastroPessoas-BackAnd](https://github.com/gabrielblasco/Dotnet-CadastroPessoas-BackAnd) e utiliza a rota local (http://localhost:5119/api/Cliente) 
+para acessa-lo.
 
 ## Tecnologias
 
 - [Angular](https://angular.io/) - Framework para desenvolvimento de aplicações web
 - [Typescript](https://www.typescriptlang.org/) - Superset do Javascript
-- [Bootstrap](https://getbootstrap.com/) - Framework para desenvolvimento de aplicações web
 - [Ngx-Mask](https://www.npmjs.com/package/ngx-mask) - Biblioteca para inserção de mascaras nos campos de cadastro
-- [Sweetalert2](https://sweetalert2.github.io/) - Biblioteca para criação de alertas
 
-## Telas
-
-/home
-- Página em construção, atualmente apresenta as tecnologias utilizadas tanto no Backend como no Frontend
-- Também pode ser acessada pela rota em branco ou ao clicar em 'SofieBank'
-
-/clientes
-- Exibe, em formato de tabela, a lista de clientes cadastrados.
-
-/clientes/cadastrar
-- Permite cadastrar um novo cliente na base de dados.
-
-/clientes/editar/:cpf
-- Permite alterar um cliente já cadastrado na base de dados.
-
-# Validações 
-
-- O campo CPF deve, obrigatóriamente, conter um CPF válido.
-- O campo Telefone deve conter apenas números, sendo preenchico com DDD e Telefone, com 10 ou 11 dígitos.
-- O campo CEP deve conter apenas números e possuir 8 dígitos.
-- Todos os campos devem estar preenchidos para dar sequência.
-- Não é permitida a alteração do CPF de um cliente já cadastrado.
 
 ## Instalação
 
